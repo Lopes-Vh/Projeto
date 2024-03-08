@@ -16,10 +16,6 @@ body{
     margin: 10px;
 }
 
-
-
-
-
 h3 {
     border: solid;
     text-align: left;
@@ -39,7 +35,7 @@ h3 {
 
 #imagem {
     width: 800px;
-    position: ; 
+    position: center ; 
     height: 40%; 
     left: 25%;
 }
@@ -100,14 +96,14 @@ h5{
     text-align: center;
 }
 
-.espesificacoes {
-    position: absolute;
+.especificacoes {
+    position: center;
     top: 40vh;
-    right: 20px;
+    right: 200px;
     
 }
 
-.video-carro{
+.VplacaV{
     position: relative;
     
 }
