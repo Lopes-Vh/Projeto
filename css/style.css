@@ -16,6 +16,10 @@ body{
     margin: 10px;
 }
 
+
+
+
+
 h3 {
     border: solid;
     text-align: left;
@@ -29,13 +33,28 @@ h3 {
     color: white;
     font-style: initial;
     text-align: center;
+    
+
 }
 
-#4090 {
+#imagem {
     width: 800px;
-    position: relative; 
+    position: ; 
     height: 40%; 
     left: 25%;
+}
+
+#se {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#volte {
+    color: rgb(0, 255, 8);
+    text-align: center;
+    font-size: 20px;
+    text-decoration:none;
 }
 
 .botao{
@@ -67,17 +86,28 @@ h2{
     margin: auto;
     text-align: center;
 }
+#img{
+    left: 400px;
+    width: 300px;
+    
+    
 
-.especificacoes {
+}
+
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+.espesificacoes {
     position: absolute;
     top: 40vh;
     right: 20px;
+    
 }
 
 .video-carro{
     position: relative;
-}
-
-.especificacoes ul {
-    list-style-type: disc;
+    
 }
