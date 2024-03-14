@@ -3,6 +3,9 @@ h1 {
     font-size: 20px;
     text-align: left;
 }
+body{
+    background-image: linear-gradient(120deg,#002fff 50%,#d9ff00);
+}
 p{
     color:black;
     text-align:left;
