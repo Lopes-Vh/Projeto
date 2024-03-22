@@ -1,37 +1,47 @@
-body{
+body {
     border-radius: 50px;
-    background-color: linear-gradient(145deg, #727272, #606060);
-
+    background-image: url(backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-h1{
-    text-align: center ;
+
+h1 {
+    text-align: center;
 }
 
 #infos {
-
     text-align: center;
+}
 
+#header {
+    border: 7px ridge rgb(0, 0, 0);
+    text-align: center;
+    background: #6b6b6b;
+    width: 700px;
+    margin: auto;
+}
+
+#pid {
+    margin-top: 0px;
 }
 
 #informacoes {
-    border: 3px double blue;
-    text-align: center;
+    border: 3px double rgb(32, 176, 219);
+    border-radius: 25px;
+    padding: 5px;
+    background-color: grey;
+    margin: auto;
+    width: 400px;
 }
 
-#botaop {
-    border: solid 1px rgb(0, 255, 8);
-    border-radius: 13px;
-    color: white;
-    background-color: rgb(0, 170, 255);
-    text-align: ju;
-    align-items: center;
-    width: auto;
-    height: auto;
-    border-color: black;
+#logo {
+    align-items: start;
 }
-.botaop:hover{
-    background-color: rgb(85, 0, 255);
-    color: white;
-    transform: scale(1.2)
-    
+
+#secaodois {
+    border: 7px ridge rgb(0, 0, 0);
+    text-align: center;
+    background: #6b6b6b;
+    width: 700px;
+    margin: auto;
 }
