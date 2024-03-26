@@ -1,40 +1,4 @@
-body {
-    border-radius: 50px;
-    background-image: url(backgroud.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0%;
-}
 
-h1 {
-    text-align: center;
-}
-
-#infos {
-    text-align: center;
-}
-
-#header {
-    border: 7px ridge rgb(0, 0, 0);
-    text-align: center;
-    background: #6b6b6b;
-    width: 700px;
-    margin: auto;
-}
-
-#pid {
-    margin-top: 0px;
-}
-
-#informacoes {
-    border: 3px double rgb(32, 176, 219);
-    border-radius: 25px;
-    padding: 5px;
-    background-color: grey;
-    margin: auto;
-    width: 50%;
-
-}
 
 #logo {
     align-items: start;
