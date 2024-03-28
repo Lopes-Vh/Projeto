@@ -1,4 +1,4 @@
-
+/*placa mae*/
 
 #logo {
     align-items: start;
@@ -13,7 +13,11 @@
 }
 
 
-#um {
+
+
+/*multiplas paginas*/
+BOTAO{
+  #um {
     text-decoration: none;
     position: relative;
     border: none;
@@ -30,22 +34,22 @@
     border-radius: 30px;
 
   }
-  
+
   #um:hover {
     animation: ani 8s linear infinite;
     border: none;
   }
-  
+
   @keyframes ani {
     0% {
       background-position: 0%;
     }
-  
+
     100% {
       background-position: 400%;
     }
   }
-  
+
   #um:before {
     content: "";
     position: absolute;
@@ -59,12 +63,12 @@
     border-radius: 35px;
     transition: 1s;
   }
-  
+
   #um:hover::before {
     filter: blur(20px);
   }
-  
+
   #um:active {
     background: linear-gradient(50deg, #676969, #000000, #cecdcb);
-  }
   
+  }}

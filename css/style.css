@@ -22,8 +22,12 @@ h1 {
     margin: auto;
 }
 
+#separacao{
+  margin-top: 5cm;
+  margin-bottom: 5cm;
+}
 #pid {
-    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #informacoes {
@@ -33,7 +37,7 @@ h1 {
     background-color: grey;
     margin: auto;
     width: 50%;
-
+  
 }
 
 #logo {
