@@ -1,7 +1,7 @@
 /*placa mae*/
 
 #logo {
-    align-items: start;
+    text-align: center;
 }
 
 #secaodois {
@@ -16,59 +16,59 @@
 
 
 /*multiplas paginas*/
-BOTAO{
-  #um {
-    text-decoration: none;
-    position: relative;
-    border: none;
-    font-size: 14px;
-    font-family: inherit;
-    cursor: pointer;
-    color: #fff;
-    width: 15em;
-    height: 3em;
-    line-height: 2em;
-    text-align: center;
-    background: linear-gradient(90deg, #676969, #000000, #cecdcb);
-    background-size: 300%;
-    border-radius: 30px;
 
+
+#um {
+  text-decoration: none;
+  position: relative;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  color: #fff;
+  width: 15em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #676969, #000000, #cecdcb);
+  background-size: 300%;
+  border-radius: 30px;
+
+}
+
+#um:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
   }
 
-  #um:hover {
-    animation: ani 8s linear infinite;
-    border: none;
+  100% {
+    background-position: 400%;
   }
+}
 
-  @keyframes ani {
-    0% {
-      background-position: 0%;
-    }
+#um:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #676969, #000000, #cecdcb);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
 
-    100% {
-      background-position: 400%;
-    }
-  }
+#um:hover::before {
+  filter: blur(20px);
+}
 
-  #um:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-    background: linear-gradient(90deg, #676969, #000000, #cecdcb);
-    background-size: 400%;
-    border-radius: 35px;
-    transition: 1s;
-  }
-
-  #um:hover::before {
-    filter: blur(20px);
-  }
-
-  #um:active {
-    background: linear-gradient(50deg, #676969, #000000, #cecdcb);
-  
-  }}
+#um:active {
+  background: linear-gradient(50deg, #676969, #000000, #cecdcb);
+}
