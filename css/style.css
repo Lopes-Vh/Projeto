@@ -1,9 +1,11 @@
 body {
-    border-radius: 50px;
+
     background-image: url(backgroud.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 250%;
     margin: 0%;
+
+
 }
 
 h1 {
