@@ -1,78 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peças</title>
+    <title>Placa Mãe</title>
     <link rel="stylesheet" href="css/style2.css">
 </head>
-
 <body>
-    <h1></h1>
-    <div id="logo"><img src="img/Logo.png" alt=></div>
-    <div id="imagem"><img src="img/4060.jfif" alt=""></div>
-    <div id="VplacaV"><iframe src="https://www.youtube.com/embed/fj245xMr-BM" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe></div>
 
+    <div id="logo"><img src="img/Logo.png" alt=""></div>
+    <div style="display: flex; justify-content: space-between;">
+        <div id="VplacaM">
+            <iframe width="300vh" height="200vh" src="https://www.youtube.com/embed/fj245xMr-BM" title="Vídeo do YouTube" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen style="max-width: 100%;"></iframe>
+        </div>
+        <div id="imagem">
+            <img id="X670E" src="img/4060.jfif" alt="Placa Mãe" style="height: 25vh; width: 20vw; object-fit: contain; max-width: 100%;">
+        </div>
+    </div>
     <div class="especificacoes">
         <h2>Especificações</h2>
         <hr>
-
-        <p><strong>GPU Engine Specs:</strong></p>
-        <ul>
-            <li>NVIDIA CUDA® Cores 16384</li>
-            <li>Boost Clock (GHz): 2.52</li>
-            <li>Base Clock (GHz): 2.23</li>
-            <li>Memory Specs: Standard Memory Config 24 GB GDDR6X</li>
-            <li>Memory Interface Width: 384-bit</li>
-            <li>Technology Support:</li>
-            <li>Ray Tracing Cores: 3rd Generation</li>
-            <li>Tensor Cores: 4th Generation</li>
-            <li>NVIDIA Architecture: Ada Lovelace</li>
-            <li>NVIDIA DLSS: 3</li>
-            <li>NVIDIA Reflex: Yes</li>
-            <li>NVIDIA Broadcast: Yes</li>
-            <li>PCI Express Gen 4: Yes</li>
-            <li>Resizable BAR: Yes</li>
-            <li>NVIDIA® GeForce Experience™: Yes</li>
-            <li>NVIDIA Ansel: Yes</li>
-            <li>NVIDIA FreeStyle: Yes</li>
-            <li>NVIDIA ShadowPlay: Yes</li>
-            <li>NVIDIA Highlights: Yes</li>
-            <li>NVIDIA G-SYNC®: Yes</li>
-            <li>Game Ready Drivers: Yes</li>
-            <li>NVIDIA Studio Drivers: Yes</li>
-            <li>NVIDIA Omniverse: Yes</li>
-            <li>Microsoft DirectX® 12 Ultimate: Yes</li>
-            <li>NVIDIA GPU Boost™: Yes</li>
-            <li>NVIDIA NVLink™ (SLI-Ready): No</li>
-            <li>Vulkan RT API, OpenGL 4.6: Yes</li>
-            <li>NVIDIA Encoder (NVENC): 2x 8th Generation</li>
-            <li>NVIDIA Decoder (NVDEC): 5th Generation</li>
-            <li>AV1 Encode: Yes</li>
-            <li>AV1 Decode: Yes</li>
-            <li>CUDA Capability: 8.9</li>
-            <li>VR Ready: Yes</li>
-        </ul>
+        <ul id="lista" >
         
-
-
-        <p><strong>Thermal and Power Specs:</strong></p>
-        <ul>
-            <li>Maximum GPU Temperature (in C): 90</li>
-            <li>Idle Power (W): 19</li>
-            <li>Video Playback Power (W): 25</li>
-            <li>Average Gaming Power (W): 315</li>
-            <li>Total Graphics Power (W): 450</li>
-            <li>Required System Power (W): 850</li>
-            <li>Supplementary Power Connectors: 3x PCIe 8-pin cables (adapter in box) OR 450 W or greater PCIe Gen 5 cable.</li>
+            <li class="base">
+                <div class="titulo">Especificações do Mecanismo de GPU:</div><br>
+                <div class="conteudo">	
+                    <br>
+                    Núcleos NVIDIA CUDA®: 16384<br>
+                    Boost Clock (GHz): 2,52<br>
+                    Clock base (GHz): 2,23<br>
+                </div>
+            </li>
+            <li class="base">
+                <div class="titulo">Especificações de memória</div>
+                <div class="conteudo">
+                    <br>
+                    Configuração de memória padrão: 24 GB GDDR6X<br>
+                    Largura da interface de memória: 384 bits<br>
+                </div>
+            </li>
+            <li class="base">
+                <div class="titulo"><br>Suporte tecnológico</div>
+                <div class="conteudo">
+                    <br>
+                    Núcleos de Ray Tracing: 3ª geração<br>
+                    Núcleos tensores: 4ª geração<br>
+                    Arquitetura NVIDIA: Ada Lovelace<br>
+                    NVIDIA DLSS: 3<br>
+                    NVIDIA Reflex: Sim<br>
+                    NVIDIA Broadcast: Sim<br>
+                    PCI Express Gen 4: Sim<br>
+                    Barra redimensionável: Sim<br>
+                    NVIDIA® GeForce Experience™: Sim<br>
+                    NVIDIA Ansel: Sim<br>
+                    NVIDIA FreeStyle: Sim<br>
+                    NVIDIA ShadowPlay: Sim<br>
+                    Destaques NVIDIA: Sim<br>
+                    NVIDIA G-SYNC®: Sim<br>
+                    Drivers prontos para jogos: Sim<br>
+                    Drivers NVIDIA Studio: Sim<br>
+                    NVIDIA Omniverse: Sim<br>
+                    Microsoft DirectX® 12 Ultimate: Sim<br>
+                    NVIDIA GPU Boost™: Sim<br>
+                    NVIDIA NVLink™ (pronto para SLI): Não<br>
+                    API Vulkan RT, OpenGL 4.6: Sim<br>
+                    Codificador NVIDIA (NVENC): 2x 8ª geração<br>
+                    Decodificador NVIDIA (NVDEC): 5ª Geração<br>
+                    Codificação AV1: Sim<br>
+                    Decodificação AV1: Sim<br>
+                    Capacidade CUDA Pronto para VR: 8.9<br>
+                    Suporte para exibição: Resolução máxima baseado em <br>GPU Engine Specs: 4K a 240Hz ou 8K a 60Hz com DSC, HDR
+                </div>
+            </li>
         </ul>
-        
-
-
     </div>
     <hr>
-    <a href="index.html"><button id="um">voltar para a página principal</button></a>
-</body>
+    <a href="index.html"><button id="um">Voltar para a página principal</button></a>
 
+    <script>
+        const bases = document.querySelectorAll('.base');
+        bases.forEach(base => {
+            base.addEventListener('click', () => {
+                base.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
 </html>
